@@ -1,0 +1,7 @@
+torch==2.9.0
+torch-geometric==2.7.0
+scikit-learn==1.7.2
+numpy==2.2.6
+pandas
+matplotlib
+nilearn
