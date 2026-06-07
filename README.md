@@ -36,15 +36,18 @@ src/
 configs/
 ├── run_config.json             # default hyperparameters
 └── reproduce.sh                # 5-fold reproduction script
+sample_inputs/
+└── 1.nii                       # one atlas-registered NCCT sample
 ```
 
 ## Data
 
-No data files are included in this release. Clinical NCCT scans,
-patient features, fold splits, and atlas specifications are withheld
-to protect patient privacy. Cohort statistics, preprocessing,
-atlas construction, and graph definition details are described in
-Section III of the paper.
+The full multi-center cohort, patient features, fold splits, and
+atlas specifications are withheld to protect patient privacy. For
+input format demonstration, one atlas-registered, brain-extracted
+NCCT sample is provided under `sample_inputs/`. Cohort statistics,
+preprocessing, atlas construction, and graph definition details are
+described in Section III of the paper.
 
 ## Training Entry Point
 
